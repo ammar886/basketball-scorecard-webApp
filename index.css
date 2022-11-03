@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homeText,.guestText{
+    color: #EEEEEE;
+    margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.homeScore,.guestScore{
+    text-align: center;
+    background-color: #080001;
+    height: 50px;
+    width: 80px;
+    
+}
+
+.homeScore h1,.guestScore h1{
+    position: relative;
+    top: 6px;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+}
+
+#homeBtns,#guestBtns{
+    margin-top: 40px;
+    margin-left: -10px;
+   
+}
+
+#homeBtns .plusOneHome,.plusTwoHome,.plusThreeHome{
+    background-color: #9AABD8;
+    border: 1px solid white;
+    height: 30px;
+    margin: 2px;
+}
+
+#guestBtns .plusOneGuest,.plusTwoGuest,.plusThreeGuest{
+    background-color: #9AABD8;
+    border: 1px solid white;
+    height: 30px;
+    margin: 2px;
+}
+.rBtn{
+    position: relative;
+    top: 60px;
+    left: -50px;
+}
+
+#resetBtn{
+    color: bl;;
+    background-color: yellow;
+}
+
+#resetBtn:hover{
+    background-color: blue;
+    color: white;
+}
+
+#leadP{
+    position: relative;
+    top: 60px;
+    left: -65px;
+}
+
+.leadPara{
+    color: wheat;
+}
